@@ -1,9 +1,3 @@
-# Template Repository
+# Developer Rubric Discord Bot
 
-Use this template when creating a new open source project under the SemaLab organisation - the below markdown snippet can replace the contents of this file.
-
-```md
-# Project Name
-
-Project description goes here
-```
+This is a Discord bot which allows you to assess your skills with our [developer rubric](https://github.com/Semalab/developer-rubric) directly on Discord.
