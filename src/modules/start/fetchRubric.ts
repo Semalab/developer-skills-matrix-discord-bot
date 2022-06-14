@@ -3,9 +3,8 @@ import axios from "axios";
 import {
   RubricCategoryData,
   RubricSubCategoryText,
-} from "../interfaces/RubricData";
-
-import { logHandler } from "./logHandler";
+} from "../../interfaces/RubricData";
+import { logHandler } from "../../utils/logHandler";
 
 /**
  * Function to fetch latest version of the rubric.json file from
