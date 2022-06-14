@@ -10,5 +10,12 @@ import { logHandler } from "./utils/logHandler";
     logHandler.log("info", "Bot is ready!");
   });
 
-  await bot.login(process.env.BOT_TOKEN);
+  try {
+    await bot.login(process.env.BOT_TOKEN);
+  } catch (err) {
+    const error = err as Error;
+    if (error.name === "Error [TOKEN_INVALID]") {
+      logHandler.log("error", "Invalid bot token used.");
+    }
+  }
 })();
