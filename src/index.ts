@@ -47,6 +47,7 @@ import { registerCommands } from "./utils/registerCommands";
         token: process.env.BOT_TOKEN,
         homeGuildID: process.env.GUILD_ID,
       };
+      // eslint-disable-next-line require-atomic-updates
       bot.envConfigs = configs;
     } else {
       logHandler.log("error", "No BOT_TOKEN set in .env");
