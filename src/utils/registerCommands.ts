@@ -36,6 +36,7 @@ export const registerCommands = async (Bot: Bot): Promise<boolean> => {
     );
     commandFiles.filter((file) => file.endsWith(".ts"));
 
+    // eslint-disable-next-line require-atomic-updates
     Bot.commands = [];
     for (const file of commandFiles) {
       const fileData = await import(
