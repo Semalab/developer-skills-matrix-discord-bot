@@ -30,6 +30,7 @@ import { registerCommands } from "./utils/registerCommands";
           );
           return;
         }
+        command.run(bot, interaction);
       } catch (error) {
         await interaction.reply(
           "Internal Bot Error: There was an error while running this command."
