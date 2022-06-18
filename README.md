@@ -1,4 +1,5 @@
-<img width=200px src="https://assets.website-files.com/620d644176745d29e7f19e8f/620d6f5dc8eb1a38b86b7054_Logo%20white.svg">
+<img width=200px src="https://assets.website-files.com/620d644176745d29e7f19e8f/620d6f5dc8eb1a38b86b7054_Logo%20white.svg" alt="" class="shadow" width="200">
+
 
 [![License](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://github.com/Semalab/developer-rubric-discord-bot/blob/main/LICENSE.md)
 
