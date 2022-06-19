@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://avatars.githubusercontent.com/u/31629704?s=200&v=4">
-    <img src="logo.svg" alt="Logo" width="80" height="80">
+    <img src="./readmeAssets/logo.svg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Developer Rubric Discord Bot</h3>
