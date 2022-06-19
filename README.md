@@ -14,7 +14,7 @@ $~$
 
 ## Contributing
 
-Please see [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidance on how to submit changes and make pull requests.
+Please see [CONTRIBUTING.md](CONTRIBUTING.md) for the guidance on how to submit changes and make pull requests.
 
 $~$
 
