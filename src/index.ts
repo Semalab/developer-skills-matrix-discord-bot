@@ -1,61 +1,27 @@
-import { Client, Interaction } from "discord.js";
+import { Client } from "discord.js";
 
 import { IntentOptions } from "./config/IntentOptions";
+import { handleEvents } from "./events/_handleEvents";
 import { Bot } from "./interfaces/Bot";
+import { loadCommands } from "./utils/loadCommands";
 import { logHandler } from "./utils/logHandler";
 import { registerCommands } from "./utils/registerCommands";
+import { validateEnv } from "./utils/validateEnv";
 
 (async () => {
   const bot = new Client({ intents: IntentOptions }) as Bot;
-  bot.once("ready", async () => {
-    const registerSuccess = await registerCommands(bot);
+  bot.envConfigs = validateEnv();
+  bot.commands = await loadCommands();
 
-    if (registerSuccess) {
-      logHandler.log("info", "All bot commands registered in Guild.");
-    } else {
-      logHandler.log("error", "Failed to register bot commands");
-    }
-    logHandler.log("info", "Bot is ready!");
-  });
+  handleEvents(bot);
 
-  bot.on("interactionCreate", async (interaction: Interaction) => {
-    if (interaction.isCommand()) {
-      try {
-        const command = bot.commands.find(
-          (el) => el.data.name === interaction.commandName
-        );
-        if (!command) {
-          await interaction.reply(
-            "Bad Interaction: Bot can't find the Command."
-          );
-          return;
-        }
-        command.run(bot, interaction);
-      } catch (error) {
-        await interaction.reply(
-          "Internal Bot Error: There was an error while running this command."
-        );
-        logHandler.log("warn", `${interaction.commandName} failed.`);
-      }
-    }
-  });
+  await bot.login(bot.envConfigs.token);
 
-  try {
-    if (process.env.BOT_TOKEN !== undefined) {
-      await bot.login(process.env.BOT_TOKEN);
-      const configs: Bot["envConfigs"] = {
-        token: process.env.BOT_TOKEN,
-        homeGuildID: process.env.GUILD_ID,
-      };
-      // eslint-disable-next-line require-atomic-updates
-      bot.envConfigs = configs;
-    } else {
-      logHandler.log("error", "No BOT_TOKEN set in .env");
-    }
-  } catch (err) {
-    const error = err as Error;
-    if (error.name === "Error [TOKEN_INVALID]") {
-      logHandler.log("error", "Invalid bot token used.");
-    }
+  const registerSuccess = await registerCommands(bot);
+
+  if (registerSuccess) {
+    logHandler.log("info", "Bot commands registered successfully.");
+  } else {
+    logHandler.log("error", "Failed to register bot commands.");
   }
 })();
