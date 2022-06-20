@@ -10,10 +10,8 @@ export const start: Command = {
     .setDescription("Use Sema's developer rubric"),
   async run(bot, interaction) {
     try {
-      if (interaction.isCommand() && interaction.commandName === "start") {
-        await interaction.deferReply({ ephemeral: true });
-        await rubricStartHandler(bot, interaction);
-      }
+      await interaction.deferReply({ ephemeral: true });
+      await rubricStartHandler(bot, interaction);
     } catch (err) {
       logHandler.log("error", err);
     }
