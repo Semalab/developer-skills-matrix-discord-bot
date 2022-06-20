@@ -27,7 +27,7 @@ This is a Discord bot which allows you to assess your skills with our [developer
 Here's what developer rubric is:
 
 - A self-assessment tool you can use to measure your current place in your development journey.
-- It provide The markdown rubric, The JSON rubric, and The CSV rubric
+- It provides the Markdown rubric, JSON rubric, and the CSV rubric
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
