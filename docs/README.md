@@ -11,7 +11,7 @@ Sema's [Developer Rubric](https://github.com/Semalab/developer-rubric) is a Deve
 This tool is designed to answer the question as to what extent are students who engage in the programs/services are able to develop a certain skill/ability/value/etc.
 
 # Installation
-This document provide step by step guide to set up Sema's Developer Ruberic Discord Bot.
+Following is a step by step guide to set up Sema's Developer Ruberic Discord Bot with any discord server.
 
 ## Setting up discord bot:-
 
@@ -21,7 +21,7 @@ This document provide step by step guide to set up Sema's Developer Ruberic Disc
 - Go to the `Oauth2` tab > `URL Generator` and select both `bot` and `applications.commandss` scopes, along with the `Administrator` permission. Copy the URL generated and invite the bot in your server.
 - Copy the guild id of the server you invited the bot into.
 
-## Setting up env:-
+## Setting up environment:
 
 - Copy sample.env into .env  
 ``` 
@@ -41,12 +41,12 @@ npm install
 npm run build
 ```
 
-## Running the bot
+## Running the bot:
 ```
 npm run start
 ```
 
-## Running the bot in development mode, with file-reloading
+## Running the bot in development mode, with file-reloading:
 ```
 npm run start:dev
 ```
