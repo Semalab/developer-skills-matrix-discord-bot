@@ -45,7 +45,7 @@ _How to run the discord bot locally._
 
 2. Clone the repo
    ```sh
-   git clone https://github.com/Semalab/developer-rubric-discord-bot.git
+   git clone https://github.com/YOUR_USERNAME_HERE/developer-rubric-discord-bot.git
    ```
 3. Install NPM packages
    ```sh
