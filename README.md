@@ -50,12 +50,17 @@ $~$
 
 ## CONTRIBUTING
 
-Please see [CONTRIBUTING.md](CONTRIBUTING.md) for the guidance on how to submit changes and make pull requests.
+Have a look through existing [Issues](https://github.com/Semalab/developer-rubric-discord-bot/issues) and [Pull Requests](https://github.com/Semalab/developer-rubric-discord-bot/pulls) that you could help with. If you'd like to request a feature or report a bug, please [create a GitHub Issue](https://github.com/Semalab/developer-rubric-discord-bot/issues) using one of the templates provided.
+
+Contributions are always welcome! Please read the [contribution guideline](CONTRIBUTING.md) on how to submit changes and make pull requests.
 
 $~$
 
 ## CONTRIBUTORS
 
+⭐ Star us on GitHub — it motivates us a lot!
+
 <a href="https://github.com/Semalab/developer-rubric-discord-bot/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Semalab/developer-rubric-discord-bot" />
 </a>
+
