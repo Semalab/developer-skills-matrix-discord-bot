@@ -40,7 +40,7 @@ _How to run the discord bot locally._
 - Login to the Discord Developer portal and create a new Application.
 - Add a bot to the Application after selecting "Bot" from the left-side panel.
 - Copy the bot's token.
-- Go to the Oauth2 tab > URL Generator and select both bot and applications.commandss scopes, along with the - Administrator permission. Copy the URL generated and invite the bot in your server.
+- Go to the OAuth2 tab > URL Generator and select both bot and applications.commands scopes, along with the - Administrator permission. Copy the URL generated and invite the bot to your server.
 - Copy the guild id of the server you invited the bot into
 
 2. Clone the repo
