@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://www.semasoftware.com/">
-    <img src="./readmeAssets/logo.svg" alt="Logo" width="80" height="80">
+    <img src="https://cdn.discordapp.com/icons/972616580078907442/3660c78f24a43ee25aa2e1a313d18424.webp?size=160" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Developer Rubric Discord Bot</h3>
