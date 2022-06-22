@@ -35,7 +35,7 @@ Here's what developer rubric is:
 
 _How to run the discord bot locally._
 
-1. Setting up discord bot:
+1. Setting up the Discord bot:
 
 - Login to the Discord Developer portal and create a new Application.
 - Add a bot to the Application after selecting "Bot" from the left-side panel.
