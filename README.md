@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://www.semasoftware.com/">
-    <img src="https://cdn.discordapp.com/icons/972616580078907442/3660c78f24a43ee25aa2e1a313d18424.webp?size=160" alt="Logo" width="80" height="80">
+    <img src="https://cdn.discordapp.com/icons/972616580078907442/3660c78f24a43ee25aa2e1a313d18424.webp?size=160" alt="Logo" width="80" height="80" >
   </a>
 
   <h3 align="center">Developer Rubric Discord Bot</h3>
@@ -12,9 +12,9 @@
   <p align="center">
     <a href="">View Demo</a>
     ·
-    <a href="https://github.com/Semalab/developer-rubric-discord-bot/issues/new?assignees=nhcarrigan&labels=%F0%9F%9A%A6+status%3A+awaiting+triage&template=bug_report.yml&title=%5BBUG%5D+-+">Report Bug</a>
+    <a href="https://github.com/Semalab/developer-skills-matrix-discord-bot/issues/new?assignees=nhcarrigan&labels=%F0%9F%9A%A6+status%3A+awaiting+triage&template=bug_report.yml&title=%5BBUG%5D+-+">Report Bug</a>
     ·
-    <a href="https://github.com/Semalab/developer-rubric-discord-bot/issues/new?assignees=nhcarrigan&labels=%F0%9F%9A%A6+status%3A+awaiting+triage&template=feature_request.yml&title=%5BFEAT%5D+-+">Request Feature</a>
+    <a href="https://github.com/Semalab/developer-skills-matrix-discord-bot/issues/new?assignees=nhcarrigan&labels=%F0%9F%9A%A6+status%3A+awaiting+triage&template=feature_request.yml&title=%5BFEAT%5D+-+">Request Feature</a>
   </p>
 </div>
 
