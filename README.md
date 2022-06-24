@@ -1,5 +1,5 @@
 $~$
-<img width=200px align="right" src="https://github.com/MrHerbalizer/logo-for-sema/blob/master/sema%20(off-white)%20shadow.png?raw=true" alt="">
+<img width=250px align="right" src="https://github.com/MrHerbalizer/logo-for-sema/blob/master/sema%20(blue%20gradient)%20shadow.png?raw=true" alt="">
 
 # Developer Rubric Discord Bot
 
