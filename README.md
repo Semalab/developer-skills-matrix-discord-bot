@@ -70,3 +70,9 @@ $~$
 
 $~$
 
+## LINKS
+
+- [Discord](https://discord.gg/Byjr6rdBUZ)
+- [Documentation](https://github.com/MrHerbalizer/developer-rubric-discord-bot/tree/main/docs)
+- [Issue Tracker](https://github.com/Semalab/developer-skills-matrix-discord-bot/issues)
+- [Source Code](https://github.com/Semalab/developer-skills-matrix-discord-bot)
