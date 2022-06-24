@@ -19,3 +19,7 @@ Please note we have a code of conduct, please follow it in all your interactions
 ## Code of Conduct
 
 All contributors should follow our [Code of Conduct](https://github.com/Semalab/developer-rubric-discord-bot/blob/main/CODE_OF_CONDUCT.md).
+
+## More about Contributing
+
+If you'd like ask more questions about contributing, [Join our Discord community](https://discord.gg/Byjr6rdBUZ)
