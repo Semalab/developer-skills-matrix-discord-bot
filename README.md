@@ -22,7 +22,7 @@
 
 <!-- [![Developer Rubric Discord Bot][product-screenshot]](https://example.com) -->
 
-This is a Discord bot which allows you to assess your skills with our [developer rubric](https://github.com/Semalab/developer-rubric) directly on Discord.
+This is a Discord bot that allows you to assess your skills with our [developer rubric](https://github.com/Semalab/developer-skills-matrix) directly on Discord.
 
 Here's what developer rubric is:
 
