@@ -11,7 +11,7 @@
 
   <p align="center">
     <!-- <a href="">View Demo</a>
-    · -->
+    . -->
     <a href="https://github.com/Semalab/developer-skills-matrix-discord-bot/issues/new?assignees=nhcarrigan&labels=%F0%9F%9A%A6+status%3A+awaiting+triage&template=bug_report.yml&title=%5BBUG%5D+-+">Report Bug</a>
     ·
     <a href="https://github.com/Semalab/developer-skills-matrix-discord-bot/issues/new?assignees=nhcarrigan&labels=%F0%9F%9A%A6+status%3A+awaiting+triage&template=feature_request.yml&title=%5BFEAT%5D+-+">Request Feature</a>
