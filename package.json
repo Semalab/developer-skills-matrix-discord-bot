@@ -1,7 +1,7 @@
 {
-  "name": "developer-rubric-discord-bot",
+  "name": "developer-skills-matrix-discord-bot",
   "version": "0.0.0",
-  "description": "This is a bot that allows you to assess your skills with our developer rubric directly on discord",
+  "description": "This is a bot that allows you to assess your skills with our developer rubric directly on Discord",
   "main": "prod/index.js",
   "scripts": {
     "build": "tsc",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Semalab/developer-rubric-discord-bot.git"
+    "url": "git+https://github.com/Semalab/developer-skills-matrix-discord-bot.git"
   },
   "author": "Sema Software",
   "license": "AGPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/Semalab/developer-rubric-discord-bot/issues"
+    "url": "https://github.com/Semalab/developer-skills-matrix-discord-bot/issues"
   },
-  "homepage": "https://github.com/Semalab/developer-rubric-discord-bot#readme",
+  "homepage": "https://github.com/Semalab/developer-skills-matrix-discord-bot#readme",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.27.0",
     "@typescript-eslint/parser": "^5.27.0",
